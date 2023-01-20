@@ -1,0 +1,50 @@
+body {
+    background-color: beige;
+}
+
+h1 {
+    color: rgb(16, 116, 106);
+    font-family: 'Rowdies', cursive;
+    font-size: xx-large;
+}
+
+p {
+    color: rgb(15, 147, 112);
+    font-family: 'Forum', cursive;
+    font-size: large;
+}
+
+button{
+    size: 2.5%;
+    border-width: 1px;
+    border-color:rgb(15, 147, 112);
+    border-radius: 10px;
+    font-family: 'Forum', cursive;
+    font-size: medium;
+    color: rgb(15, 147, 112);
+    background-color: rgb(220, 232, 231);
+}
+button:hover {
+    opacity: 65%;
+}
+
+#container {
+    width: 50px;
+    height: 50px;
+    position: relative;
+  }
+
+#dice {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: rgb(120, 179, 178);
+    margin-top: 10px;
+    margin-left: 8px;
+  }
+
+#poopy {
+    color: rgb(15, 147, 112);
+    font-family: 'Ewert', cursive;
+    font-size: small;
+}
