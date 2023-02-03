@@ -8,8 +8,8 @@ rollButton.addEventListener("click", function() {
   //check what the number is and change the image of the dice accordingly
   if(result==1) {
     text.style.backgroundImage = "url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Dice-1-b.svg/557px-Dice-1-b.svg.png)";
-    text.style.height = '120px';
-    text.style.width = '120px';
+    text.style.height = '300px';
+    text.style.width = '300px';
   } else if(result==2) {
     text.style.backgroundImage = "url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Dice-2a-b.svg/120px-Dice-2a-b.svg.png)";
     text.style.height = '120px';
@@ -20,18 +20,17 @@ rollButton.addEventListener("click", function() {
     text.style.width = '120px';
   } else if(result==4){
     text.style.backgroundImage = "url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Dice-4-b.svg/1024px-Dice-4-b.svg.png)";
-    text.style.height = '120px';
-    text.style.width = '120px';
+    text.style.height = '300px';
+    text.style.width = '300px';
   } else if(result==5){
     text.style.backgroundImage = "url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Dice-5-b.svg/2048px-Dice-5-b.svg.png)";
-    text.style.height = '120px';
-    text.style.width = '120px';
+    text.style.height = '300px';
+    text.style.width = '300px';
   } else if(result==6){
     text.style.backgroundImage = "url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Dice-6-b.svg/120px-Dice-6-b.svg.png)";
     text.style.height = '120px';
     text.style.width = '120px';
   }
-  
   
   //set the text of the dice box to the random number
   //text.innerHTML = result;
