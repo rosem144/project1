@@ -35,8 +35,8 @@ button:hover {
   }
 
 #dice {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     position: absolute;
     background: rgb(120, 179, 178);
     margin-top: 10px;
