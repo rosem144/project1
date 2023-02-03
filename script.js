@@ -7,7 +7,7 @@ rollButton.addEventListener("click", function() {
   
   //check what the number is and change the image of the dice accordingly
   if(result==1) {
-    text.style.image = "url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Dice-1-b.svg/557px-Dice-1-b.svg.png)";
+    text.style.backgroundImage = "url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Dice-1-b.svg/557px-Dice-1-b.svg.png)";
   } else if(result==2) {
     text.style.backgroundImage = "url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Dice-2a-b.svg/120px-Dice-2a-b.svg.png)";
   } else if(result==3){
