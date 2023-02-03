@@ -21,6 +21,6 @@ rollButton.addEventListener("click", function() {
   }
   
   //set the text of the dice box to the random number
-  //text.innerHTML = result;
+  text.innerHTML = result;
 });
 console.log(result);
